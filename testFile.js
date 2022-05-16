@@ -1,7 +1,4 @@
-// Comment out this line and it passes
-require("tinybase");
-
-// doing another require here just to show that requires are working
-require("fs");
-
-console.log("Hi there");
+const { createStore } = require("tinybase/lib/umd/tinybase")
+const store = createStore().setCell('messages', 'greeting', 'hi', 'there!');
+ 
+console.log(store.getTable('messages'));
