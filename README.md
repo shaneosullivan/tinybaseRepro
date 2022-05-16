@@ -1,6 +1,8 @@
 This is a minimal reproduction of a possible bug in Tinybase. It fails to build with
 Browserify, while most other packages build just fine.
 
+Issue: https://github.com/tinyplex/tinybase/issues/19
+
 To reproduce, run
 
 ```
