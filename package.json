@@ -9,6 +9,9 @@
     "tinybase": "^1.3.3"
   },
   "devDependencies": {
-    "browserify": "^17.0.0"
+    "browserify": "^17.0.0",
+    "@babel/core": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "babelify": "^10.0.0"
   }
 }
